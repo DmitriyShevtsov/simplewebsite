@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <%= link_to 'the MAEN', root_path, class:'navbar-brand' %>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <%= link_to 'MAIN', root_path, class:'nav-link' %>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'MUSIC', music_path, class:'nav-link' %>
+      </li>
+      <li>
+        <%= link_to 'ABOUT', about_path, class:'nav-link' %>
+      </li>
+      <li>
+        <%= link_to 'CONTACTS', contacts_path, class:'nav-link' %>
+      </li>
+
+    </ul>
+
+    <ul>
+      <li>
+        <%= link_to ' SPOTIFY ', 'https://spotify.com', class:'btn btn-secondary btn-sm opacity-75'%>
+          <%= link_to 'TELEGRAM', 'https://t.me/stopmenowband', class:'btn btn-secondary btn-sm opacity-75' %>
+        </li>
+      </ul>
+
+  </div>
+</div>
